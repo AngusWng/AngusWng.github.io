@@ -128,11 +128,13 @@ li {
 .current_page_item {
     float: left;
     position: relative;
+    font-size: 14px;
 }
 
 .page_item_2 {
     float: left;
     position: relative;
+    font-size: 14px;
 }
 
 a {
@@ -182,4 +184,22 @@ a {
 .article_main_content_box {
     margin: 0 auto;
     padding: 1.6em 0 0;
+}
+
+.footer {
+    float: left;
+    width: 100%;
+    background: #f9f9f9;
+    border-top: 1px solid #ddd;
+    color: #666;
+    line-height: 2.2em;
+    padding: 2.2em 0.5em;
+    text-align: center;
+    display: block;
+}
+
+.footer_text_box {
+    line-height: 2.2em;
+    padding: 2.2em 0.5em;
+    text-align: center;
 }
