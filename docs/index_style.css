@@ -18,14 +18,14 @@ html {
     vertical-align: baseline;
     margin-top: 32px;
     margin-bottom: 32px;
-    background: #03e8fc;
+    background: #e2e2e2;
 }
 
 body {
     border: 0;
     padding: 0;
 	margin: auto;
-	background: #03e8fc;
+	background: white;
 	font: 16px "Goudy Old Style", Garamond, serif;
     max-width: 1000px;
 }
