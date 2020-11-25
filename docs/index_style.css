@@ -58,6 +58,12 @@ h2 {
     vertical-align: baseline;
 }
 
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
 /* =======Top Box======= */
 
 .page {
