@@ -18,7 +18,7 @@ body {
 	font-weight: normal;
 	color: white;
 	text-align: left;
-	background-color: #FFFDF6;
+	background-color: white;
 	padding-top: 0;
 	max-width: none;
 	display: block;
@@ -105,11 +105,21 @@ figure {
 }
 
 .right_word_box {
-
+	font-size: 18px;
+	grid-column: 2;
+	grid-row: 1;
+	padding: 32px;
 }
 
 .left_photo {
-
+	padding: 0;
+	max-width: none;
+	margin: 0;
+	height: 100%;
+	min-height: 250px;
+	background-size: cover;
+	grid-column: 1;
+	grid-row: 1;
 }
 
 .left_photo > img {
@@ -127,7 +137,7 @@ figure {
 	grid-row: 1;
 }
 
-.right_photo > img {
+/* .right_photo > img {
 	position: absolute;
     width: 1px;
     max-height: 1px;
@@ -153,7 +163,7 @@ figure {
 
 	/*three column style*/
 
-	.three_column_container {
+	.column_container {
 		margin-top: 32px;
 		margin-bottom: 32px;
 		margin-left: 64px;
@@ -161,15 +171,17 @@ figure {
 		display: flex;
 	}
 
-	.three_column_box {
+	.column_box {
 		margin-left: 2em;
 		flex-basis: 0;
 		flex-grow: 1; /*set three column into same size*/
 		display: inline;
+		text-align: center;
 	}
 
 	.three_column_p {
 		max-width: 100%;
+		max-height: 350px;
 		height: auto;
 		vertical-align: middle;
 		border-style: none;
@@ -180,3 +192,26 @@ figure {
 		color: black;
 		margin-top: 32px;
 	}
+
+.multiple_text_align_style {
+	margin-left: auto;
+	color: white;
+	font-size: 30px;
+}
+
+.column_boxB {
+	margin: 0px 0px 0px 0px;
+	flex-basis: 0;
+	flex-grow: 1; /*set three column into same size*/
+	display: inline;
+	text-align: center;
+}
+
+.four_column_p {
+	max-width: 100%;
+	height: auto;
+	max-height: 250px;
+	vertical-align: middle;
+	border-style: none;	
+	margin-top: 32px;
+}
